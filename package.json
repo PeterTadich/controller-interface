@@ -1,0 +1,19 @@
+{
+  "name": "controller-interface",
+  "version": "1.0.0",
+  "description": "robotic controller interface module",
+  "main": "rcim.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterTadich/controller-interface.git"
+  },
+  "author": "Peter Tadich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeterTadich/controller-interface/issues"
+  },
+  "homepage": "https://github.com/PeterTadich/controller-interface#readme"
+}
