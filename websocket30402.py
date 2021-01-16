@@ -142,7 +142,7 @@ class WebSocket(object):
             #---serial port comms.
             
             # Send our reply
-            for hex in recv: print '%x' % ord(hex[0])
+            ####for hex in recv: print '%x' % ord(hex[0])
             #self.sendMessage(''.join(recv).strip())
             self.sendMessage(''.join(recv).encode("utf8")) #''.join(recv).encode("utf8") IMPORTANT: removed '.strip()'.
 
